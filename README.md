@@ -1,4 +1,4 @@
-<img width="2720" height="3680" alt="shop_deduplication_engine_diagram" src="https://github.com/user-attachments/assets/0e9d9045-7dd5-4bb1-88e8-23c61217670b" /># Geospatial Duplicate Shop Detection
+# Geospatial Duplicate Shop Detection
 
 An entity-resolution engine that identifies duplicate retail-shop records in a field-sales database using a combination of **spatial indexing**, **text normalisation**, **graph construction**, and **DFS-based connected-component detection**.
 
