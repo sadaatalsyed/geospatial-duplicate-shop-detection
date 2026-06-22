@@ -162,4 +162,4 @@ All tunable parameters are defined as module-level constants at the top of `shop
 ## Author
 
 **Syed Basit Hussain Shah** — Data Engineer / Analytics Engineer  
-[GitHub](https://github.com/sadaatalsyed) · [LinkedIn](#)
+[GitHub](https://github.com/sadaatalsyed) · [LinkedIn](https://www.linkedin.com/in/basithussain0793/)
