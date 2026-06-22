@@ -1,4 +1,4 @@
-# Geospatial Duplicate Shop Detection
+<img width="2720" height="3680" alt="shop_deduplication_engine_diagram" src="https://github.com/user-attachments/assets/0e9d9045-7dd5-4bb1-88e8-23c61217670b" /># Geospatial Duplicate Shop Detection
 
 An entity-resolution engine that identifies duplicate retail-shop records in a field-sales database using a combination of **spatial indexing**, **text normalisation**, **graph construction**, and **DFS-based connected-component detection**.
 
@@ -20,9 +20,14 @@ These duplicates inflate shop counts, split sales history across records, and br
 
 ---
 
+
+---
 ## Algorithm Overview
 
 Brute-force pairwise comparison across 40,000+ shops is O(n²) and takes hours. This engine reduces it to seconds with a 3-layer approach:
+
+[FlowDiagram](<img width="2720" height="3680" alt="shop_deduplication_engine_diagram" src="https://github.com/user-attachments/assets/2e208a4b-b332-4583-a7f4-d725d157903b" />)
+
 
 ### Layer 1 — Spatial Indexing (500m grid)
 
