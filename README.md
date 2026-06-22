@@ -26,7 +26,7 @@ These duplicates inflate shop counts, split sales history across records, and br
 
 Brute-force pairwise comparison across 40,000+ shops is O(n²) and takes hours. This engine reduces it to seconds with a 3-layer approach:
 
-[FlowDiagram](<img width="2720" height="3680" alt="shop_deduplication_engine_diagram" src="https://github.com/user-attachments/assets/2e208a4b-b332-4583-a7f4-d725d157903b" />)
+![FlowDiagram](<img width="2720" height="3680" alt="shop_deduplication_engine_diagram" src="https://github.com/user-attachments/assets/2e208a4b-b332-4583-a7f4-d725d157903b" />)
 
 
 ### Layer 1 — Spatial Indexing (500m grid)
